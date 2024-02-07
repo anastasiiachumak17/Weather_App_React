@@ -56,7 +56,7 @@ function App() {
                         ) : null}
                         <p>Feel like</p>
                     </div>
-                    <div class = 'humidity'>
+                    <div className = 'humidity'>
                         {data.main ?(
                             <p className='bold'>
                                 {data.main.humidity}
